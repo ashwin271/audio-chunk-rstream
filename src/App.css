@@ -1,0 +1,33 @@
+.message-area {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 640px; /* Retained width for better appearance on 1440p display */
+  height: 640px; /* Retained height for better appearance on 1440p display */
+  overflow-y: auto;
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #0069d9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: block; /* Ensures the button is a block element */
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+audio {
+  margin: 10px 0;
+}
